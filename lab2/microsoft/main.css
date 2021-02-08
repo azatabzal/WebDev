@@ -1,0 +1,151 @@
+
+body {
+    font-size: 13px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #000;
+    background-color: #fff;
+}
+a{
+	text-decoration: none;
+}
+.logo{
+	margin-left: 70px;
+}
+.logo a{
+	font-size: 10px;
+}
+.bhead{
+	margin-top: 15px;
+	display: flex;
+}
+.bhead a{
+	color: black;
+}
+.bhead a:hover{
+	border-bottom: 2.5px solid black;
+}
+.hrefl{
+	margin-top: 5px;
+	margin-left: 26px;
+}
+.hrefl1{
+	margin-left: 530px;
+	margin-top: 3px;
+}
+.hrefl2{
+	margin-left: 140px;
+	margin-top: -16.5px;
+}
+.hrefl3{
+	margin-top: 3px;
+	margin-left: 35px;
+}
+.hrefl4{
+	margin-left: 40px;
+	margin-top: -16.5px;
+}
+.hrefl5{
+	margin-top: 3px;
+	margin-left: 36px;
+}
+.hrefl6{
+	margin-left: 35px;
+	margin-top: -24px;
+}
+.btn-1{
+	background-color: white;
+	border: none;
+}
+.main{
+	margin-top:23px;
+	margin-left: 60px;
+	margin-right: 70px;
+}
+.img-main{
+	position: relative;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 33px;
+	position: absolute;
+	top	: 220px;
+	margin-left: 90px;
+	width: 100%;
+}
+.onimg{
+	position: absolute;
+	top	: 320px;
+	font-size: 15px;
+	margin-left: 90px;
+	padding-right: 100px;
+}
+.btn-1{
+	position: absolute;
+	top	: 380px;
+	font-size: 15px;
+	margin-left: 90px;
+	padding-right: 100px;
+	background-color: black;
+	color: white;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+}
+.btn-2{
+	position: absolute;
+	top	: 385px;
+	font-size: 15px;
+	margin-left: 300px;
+	padding-right: 100px;
+	color: black;
+	font-weight: bold;
+}
+.main a:hover{
+	/*-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);*/
+  	text-decoration: underline;
+}
+button:hover{
+	text-decoration: underline;
+}
+.main-2{
+	display: flex;
+	margin-top: 30px;
+}
+.main-2 a:hover{
+	text-decoration: underline;
+}
+.gallery-1{
+	margin-left: 57px;
+	width: 325px;
+}
+.gallery-3{
+	width: 325px;
+	margin-left: 18px;
+}
+.gallery-4{
+	width: 325px;
+	margin-left: 18px;
+}
+.gallery-2{
+	width: 325px;
+	margin-left: 18px;
+}
+.desc{
+	margin-top: 40px;
+}
+h3{
+	font-size: 19px;
+}
+p{
+	margin-top: -30px;
+	font-size: 14px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.need{
+	color:blue;
+	font-size: 17px;
+}
