@@ -1,0 +1,27 @@
+.prod{
+  width: 30%;
+  border: #5c6163 2px solid;
+  padding: 8px;
+  margin: 20px;
+}
+.lol{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+h2{
+  text-align: center;
+}
+img{
+  width: 250px;
+  height: 200px;
+}
+.center{
+  text-align: center;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
