@@ -1,0 +1,19 @@
+{% extends 'api/base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block content %}
+	{% for el in products %}
+		<div class="alert alert-warning mt-2">
+			<h3>{{ el.name }}</h3>
+			<p>{{ el.price }}</p>
+			<p>{{ el.description }}</p>
+			<p>{{ el.count }}</p>
+			<p>{{ el.is_active }}</p>
+		</div>
+	{% endfor %}
+{% endblock %}
+
+	
