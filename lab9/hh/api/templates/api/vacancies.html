@@ -1,0 +1,17 @@
+{% extends 'api/base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block content %}
+	{% for el in vacancies %}
+		<div class="alert alert-warning mt-2">
+			<h3>{{ el.name }}</h3>
+			<p>{{ el.description }}</p>
+			<p>{{ el.salary }}</p>
+			<p>{{ el.company }}</p>
+		</div>
+	{% endfor %}
+{% endblock %}
+	
